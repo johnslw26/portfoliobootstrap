@@ -63,11 +63,11 @@ fieldset[disabled] .btn-danger {
 }
 .btn-default {
   text-shadow: 0 1px 0 #fff;
-  background-image: -webkit-linear-gradient(top, #fff 0%, #4f4e4e 100%);
-  background-image:      -o-linear-gradient(top, #fff 0%, #4f4e4e 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#4f4e4e));
-  background-image:         linear-gradient(to bottom, #fff 0%, #4f4e4e 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ff4f4e4e', GradientType=0);
+  background-image: -webkit-linear-gradient(top, #4f4e4e 0%, #4f4e4e 100%);
+  background-image:      -o-linear-gradient(top, #4f4e4e 0%, #4f4e4e 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#4f4e4e), to(#4f4e4e));
+  background-image:         linear-gradient(to bottom, #4f4e4e 0%, #4f4e4e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff4f4e4e', endColorstr='#ff4f4e4e', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-repeat: repeat-x;
   border-color: #dbdbdb;
@@ -101,7 +101,7 @@ fieldset[disabled] .btn-default:active,
 .btn-default.disabled.active,
 .btn-default[disabled].active,
 fieldset[disabled] .btn-default.active {
-  background-color: #e0e0e0;
+  background-color: #337ab7;
   background-image: none;
 }
 .btn-primary {
