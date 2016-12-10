@@ -1,51 +1,27 @@
-# portfoliobootstrap 
-This website displays the student portfolio of work for a fictitous Jane Doe. It makes use of the bootstrap framework. 
-The main file index.html is released to the public domain. 
+# [Start Bootstrap](http://startbootstrap.com/) - [Freelancer](http://startbootstrap.com/template-overviews/freelancer/)
 
-Follow these steps to use this repository (assumes a Linux / Apache2 server with public_html web folders and git):
+[Freelancer](http://startbootstrap.com/template-overviews/freelancer/) is a one page freelancer portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, and a working PHP contact form.
 
-1. To see your globals type: `git config --list`
+## Getting Started
 
-2. If missing email or name then give the next two commands:
+To begin using this template, choose one of the following options to get started:
+* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/freelancer/)
+* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-freelancer.git`
+* Fork the repo
 
- a. `git config --global user.email "yourname@whereever.edu"` 
+## Bugs and Issues
 
- b. `git config --global user.name "First Last"` 
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-freelancer/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/freelancer/).
 
-3. Change into your public_html folder and type:
+## Creator
 
- `git clone https://github.com/profphillips/portfoliobootstrap.git`
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
 
-4. `cd portfoliobootstrap`
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
 
-5. Create a new empty (don't even have a readme file) repository on GitHub -- perhaps named portfolio2.
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
-6. `git remote -v`
+## Copyright and License
 
-7. Change the remote to your new repository: 
-
- `git remote set-url origin https://github.com/youraccountname/portfolio2.git` 
-
-8. Check the remote again and make sure it points to your repository: `git remote -v`
-
-9. Make some changes to index.html and save
-
-10. `git status`
-
-11. `git add .`
-
-12. `git status`
-
-13. `git commit -am "your comment here"`
-
-14. `git status`
-
-15. `git push -u origin master`
-
-16. Make more changes. If no new files are added you can just type:
-
- a. `git commit -am "new comment"`
-
- b. `git push`
-
-17. Verify your files are in your new repository on GitHub.
+Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
